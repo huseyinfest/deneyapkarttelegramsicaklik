@@ -2,13 +2,13 @@
 #include <DeneyapTelegram.h>
 #include <lsm6dsm.h>
 
-#define WIFI_SSID "Eren"        // Wifi Adı
-#define WIFI_PASS "eren723134"  // Wifi Şifresi
+#define WIFI_SSID "SSID"        // Wifi Adı
+#define WIFI_PASS "PASSWORD"  // Wifi Şifresi
 
 int a = 0;
 int b = 0;
-String ID = "5632619913";     // Telegram @myidbot botundan aldığınız ID numaranız
-String begin = "7061206556:AAH_FzBHQkwv3KC-I3oqXIIr0P9RNBmf2Ds"; // Telegram botunuzun API Adresi
+String ID = "ID";     // Telegram @myidbot botundan aldığınız ID numaranız
+String begin = "API"; // Telegram botunuzun API Adresi
 float sicaklik;
 unsigned long timer1 = 0;
 unsigned long timer2 = 0;
